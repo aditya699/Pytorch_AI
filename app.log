@@ -1,3 +1,19 @@
 2023-11-05 16:09:20 - INFO - [utils.py:141] - NumExpr defaulting to 8 threads.
 2023-11-05 16:09:20 - INFO - [data_loader.py:30] - Data Sucessfully Loaded 
 2023-11-05 16:09:20 - INFO - [data_transformer.py:26] - Data Divided  into X,y
+2023-11-05 16:16:38 - INFO - [utils.py:141] - NumExpr defaulting to 8 threads.
+2023-11-05 16:16:38 - INFO - [data_loader.py:30] - Data Sucessfully Loaded 
+2023-11-05 16:16:38 - INFO - [data_transformer.py:26] - Data Divided  into X,y
+2023-11-07 22:33:45 - INFO - [utils.py:141] - NumExpr defaulting to 8 threads.
+2023-11-07 22:33:45 - INFO - [data_loader.py:30] - Data Sucessfully Loaded 
+2023-11-07 22:33:45 - INFO - [data_transformer.py:26] - Data Divided  into X,y
+2023-11-07 22:33:45 - INFO - [data_transformer.py:37] - Data divided into train,test and validation set
+2023-11-07 22:35:01 - INFO - [utils.py:141] - NumExpr defaulting to 8 threads.
+2023-11-07 22:35:01 - INFO - [data_loader.py:30] - Data Sucessfully Loaded 
+2023-11-07 22:35:01 - INFO - [data_transformer.py:26] - Data Divided  into X,y
+2023-11-07 22:35:01 - INFO - [data_transformer.py:37] - Data divided into train,test and validation set
+2023-11-07 22:46:10 - INFO - [utils.py:141] - NumExpr defaulting to 8 threads.
+2023-11-07 22:46:10 - INFO - [data_loader.py:30] - Data Sucessfully Loaded 
+2023-11-07 22:46:10 - INFO - [data_transformer.py:32] - Data Divided  into X,y
+2023-11-07 22:46:10 - INFO - [data_transformer.py:44] - Data divided into train,test and validation set
+2023-11-07 22:46:10 - INFO - [data_transformer.py:66] - Data Divided into pytorch tensors
