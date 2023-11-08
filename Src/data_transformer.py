@@ -13,6 +13,8 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 import logging
 import torch
+from torch.utils.data import DataLoader,TensorDataset
+
 #Set up the logging set up;
 logging.basicConfig(
     filename='app.log',
@@ -70,6 +72,30 @@ class DataTransformation:
 
         except Exception as e:
             logging.error(f"{e}")
+
+
+        def create_tensor_dataset(self, X_train_tensor, y_train_tensor,X_val_tensor,y_val_tensor,X_test_tensor,y_test_tensor):
+                
+            try:
+            # Create TensorDatasets
+                train_dataset = TensorDataset(X_train_tensor, y_train_tensor)
+                val_dataset = TensorDataset(X_val_tensor, y_val_tensor)
+                test_dataset = TensorDataset(X_test_tensor, y_test_tensor)
+
+                # Create data loaders
+                batch_size = 32
+                train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+                val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False)
+                test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+
+                logging(f"Data Divide into tensorsDatasets and Data Loaders")
+
+                return train_loader, val_loader, test_loader
+            
+
+            except Exception as e:
+                logging.error(f"{e}")
+                
 
 
         
