@@ -17,3 +17,51 @@
 2023-11-07 22:46:10 - INFO - [data_transformer.py:32] - Data Divided  into X,y
 2023-11-07 22:46:10 - INFO - [data_transformer.py:44] - Data divided into train,test and validation set
 2023-11-07 22:46:10 - INFO - [data_transformer.py:66] - Data Divided into pytorch tensors
+2023-11-14 07:31:19 - INFO - [utils.py:141] - NumExpr defaulting to 8 threads.
+2023-11-14 07:31:19 - INFO - [data_loader.py:30] - Data Sucessfully Loaded 
+2023-11-14 07:31:19 - INFO - [data_transformer.py:34] - Data Divided  into X,y
+2023-11-14 07:31:19 - INFO - [data_transformer.py:46] - Data divided into train,test and validation set
+2023-11-14 07:31:19 - INFO - [data_transformer.py:68] - Data Divided into pytorch tensors
+2023-11-14 07:31:48 - INFO - [utils.py:141] - NumExpr defaulting to 8 threads.
+2023-11-14 07:31:48 - INFO - [data_loader.py:30] - Data Sucessfully Loaded 
+2023-11-14 07:31:48 - INFO - [data_transformer.py:34] - Data Divided  into X,y
+2023-11-14 07:31:48 - INFO - [data_transformer.py:46] - Data divided into train,test and validation set
+2023-11-14 07:31:48 - INFO - [data_transformer.py:68] - Data Divided into pytorch tensors
+2023-11-14 07:33:23 - INFO - [utils.py:141] - NumExpr defaulting to 8 threads.
+2023-11-14 07:33:23 - INFO - [data_loader.py:30] - Data Sucessfully Loaded 
+2023-11-14 07:33:23 - INFO - [data_transformer.py:34] - Data Divided  into X,y
+2023-11-14 07:33:23 - INFO - [data_transformer.py:46] - Data divided into train,test and validation set
+2023-11-14 07:33:23 - INFO - [data_transformer.py:68] - Data Divided into pytorch tensors
+2023-11-14 07:33:23 - ERROR - [data_transformer.py:97] - Size mismatch between tensors
+2023-11-14 07:35:16 - INFO - [utils.py:141] - NumExpr defaulting to 8 threads.
+2023-11-14 07:35:16 - INFO - [data_loader.py:30] - Data Sucessfully Loaded 
+2023-11-14 07:35:16 - INFO - [data_transformer.py:34] - Data Divided  into X,y
+2023-11-14 07:35:16 - INFO - [data_transformer.py:46] - Data divided into train,test and validation set
+2023-11-14 07:35:16 - INFO - [data_transformer.py:68] - Data Divided into pytorch tensors
+2023-11-14 07:35:16 - ERROR - [data_transformer.py:97] - Size mismatch between tensors
+2023-11-14 07:38:44 - INFO - [utils.py:141] - NumExpr defaulting to 8 threads.
+2023-11-14 07:38:44 - INFO - [data_loader.py:30] - Data Sucessfully Loaded 
+2023-11-14 07:38:44 - INFO - [data_transformer.py:34] - Data Divided  into X,y
+2023-11-14 07:38:44 - INFO - [data_transformer.py:46] - Data divided into train,test and validation set
+2023-11-14 07:38:44 - INFO - [data_transformer.py:68] - Data Divided into pytorch tensors
+2023-11-14 07:38:44 - ERROR - [data_transformer.py:97] - Size mismatch between tensors
+2023-11-14 07:40:29 - INFO - [utils.py:141] - NumExpr defaulting to 8 threads.
+2023-11-14 07:40:29 - INFO - [data_loader.py:30] - Data Sucessfully Loaded 
+2023-11-14 07:40:46 - INFO - [utils.py:141] - NumExpr defaulting to 8 threads.
+2023-11-14 07:40:46 - INFO - [data_loader.py:30] - Data Sucessfully Loaded 
+2023-11-14 07:40:46 - INFO - [data_transformer.py:34] - Data Divided  into X,y
+2023-11-14 07:40:46 - INFO - [data_transformer.py:46] - Data divided into train,test and validation set
+2023-11-14 07:40:46 - INFO - [data_transformer.py:68] - Data Divided into pytorch tensors
+2023-11-14 07:40:46 - ERROR - [data_transformer.py:97] - Size mismatch between tensors
+2023-11-14 07:45:05 - INFO - [utils.py:141] - NumExpr defaulting to 8 threads.
+2023-11-14 07:45:05 - INFO - [data_loader.py:31] - Data Sucessfully Loaded 
+2023-11-14 07:45:05 - INFO - [data_transformer.py:34] - Data Divided  into X,y
+2023-11-14 07:45:05 - INFO - [data_transformer.py:46] - Data divided into train,test and validation set
+2023-11-14 07:45:05 - INFO - [data_transformer.py:68] - Data Divided into pytorch tensors
+2023-11-14 07:45:05 - ERROR - [data_transformer.py:97] - Size mismatch between tensors
+2023-11-14 07:49:26 - INFO - [utils.py:141] - NumExpr defaulting to 8 threads.
+2023-11-14 07:49:26 - INFO - [data_loader.py:31] - Data Sucessfully Loaded 
+2023-11-14 07:49:26 - INFO - [data_transformer.py:34] - Data Divided  into X,y
+2023-11-14 07:49:26 - INFO - [data_transformer.py:46] - Data divided into train,test and validation set
+2023-11-14 07:49:26 - INFO - [data_transformer.py:68] - Data Divided into pytorch tensors
+2023-11-14 07:49:26 - ERROR - [data_transformer.py:104] - Size mismatch between tensors

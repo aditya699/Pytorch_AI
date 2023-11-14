@@ -23,6 +23,7 @@ class DataLoader:
         try:
                 #Read The Data
                 data = pd.read_csv(self.filepath)
+                data.drop(['BP (mmHg)'],axis=1,inplace=True)
                 #Droping the nulls
                 data=data.dropna()
                 #Droping the time related features since we don't any time series forecasting

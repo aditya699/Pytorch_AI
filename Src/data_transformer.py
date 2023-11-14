@@ -74,19 +74,26 @@ class DataTransformation:
             logging.error(f"{e}")
 
 
-        def create_tensor_dataset(self, X_train_tensor, y_train_tensor,X_val_tensor,y_val_tensor,X_test_tensor,y_test_tensor):
+    def create_tensor_dataset(self, X_train_tensor, y_train_tensor,X_val_tensor,y_val_tensor,X_test_tensor,y_test_tensor):
                 
             try:
             # Create TensorDatasets
                 train_dataset = TensorDataset(X_train_tensor, y_train_tensor)
+                print(train_dataset)
                 val_dataset = TensorDataset(X_val_tensor, y_val_tensor)
+                print(val_dataset)
                 test_dataset = TensorDataset(X_test_tensor, y_test_tensor)
+                print(test_dataset)
 
                 # Create data loaders
                 batch_size = 32
                 train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+                print(train_loader)
+        
                 val_loader = DataLoader(val_dataset, batch_size=batch_size, shuffle=False)
+                print(val_loader)
                 test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+                print(test_loader)
 
                 logging(f"Data Divide into tensorsDatasets and Data Loaders")
 
